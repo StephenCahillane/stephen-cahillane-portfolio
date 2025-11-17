@@ -1,15 +1,15 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
-
-}
+    top: 0;
+}   
 
 .title {
     font-size: 20px;
@@ -39,7 +39,7 @@
 
 .menuBtn {
     width: 30px;
-    
+
 }
 
 @media screen and (max-width: 830px) {
