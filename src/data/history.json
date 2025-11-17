@@ -1,8 +1,24 @@
 [
     {
-        "role": "Software Engineer",
-        "organization": "Netflix",
-        "startDate": "",
-        "endDate": ""
+        "role": "FrontEnd Developer",
+        "organization": "OneSource ICT",
+        "startDate": "Aug, 2022",
+        "endDate": "July, 2024",
+        "experiences": [
+            "Developed responsive customer websites and user interfaces, including full database setup and configuration",
+            "Implemented webhooks and integrated third-party services to enable seamless cross-platform communication."
+        ],
+        "imageSrc": "/onesource.jpg"
+    },
+    {
+        "role": "Founder & Full Stack Developer",
+        "organization": "Pitch Sales Tech",
+        "startDate": "Nov, 2024",
+        "endDate": "Current",
+        "experiences": [
+            "Designed, built, and deployed a full-stack MERN application from the ground up, including scalable backend APIs, secure authentication, and a performant React frontend.",
+            "Managed end-to-end operations of the product—feature development, database architecture, DevOps, monitoring, and iterative improvements—ensuring reliable uptime and a smooth user experience."
+        ],
+        "imageSrc": "/pitch_P_50w.png"
     }
 ]

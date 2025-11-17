@@ -1,6 +1,30 @@
 [
     {
-        "title": "HTML",
-        "imageSrc": "skills/html.png"
+        "title": "React",
+        "imageSrc": "/atom.png"
+    },
+    {
+        "title": "Node",
+        "imageSrc": "/programming.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "/java.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "/java.png"
+    },
+    {
+        "title": "MongoDB",
+        "imageSrc": "/MongoDB.png"
+    },
+    {
+        "title": "Express",
+        "imageSrc": "/Express.png"
+    },
+    {
+        "title": "Redux",
+        "imageSrc": "/Redux.png"
     }
 ]
