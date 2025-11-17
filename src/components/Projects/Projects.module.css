@@ -14,14 +14,11 @@
     text-transform: uppercase;
 }
 
-.projects{
+.projects {
     margin-top: 37px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 40px;
     width: 100%;
-
+    justify-items: center;
 }

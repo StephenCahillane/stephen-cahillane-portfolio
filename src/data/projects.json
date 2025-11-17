@@ -14,7 +14,7 @@
     {
         "title": "Tech TeamUp",
         "imageSrc": "/tech-teamup.PNG",
-        "description": "Tech TeamUp is a collaboration and mentorship platform designed for aspiring software engineers to connect, form teams, and grow together. It brings the power of communication, organization, and learning into one unified space — helping developers gain real-world experience through teamwork and mentorship.",
+        "description": "Tech TeamUp is a collaboration and mentorship platform designed for aspiring software engineers to connect, form teams, and grow together. Helping developers gain real-world experience through teamwork and mentorship.",
         "skills": [
             "React",
             "Express",
