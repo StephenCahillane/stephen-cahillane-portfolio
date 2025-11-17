@@ -12,15 +12,15 @@ const Contact = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img src='' />
+                    <img src='/email (1).png' />
                     <a href='mailto:myemail@email.com'>myemail@gmail.com</a>
                 </li>
                 <li className={styles.link}>
-                    <img src='' />
+                    <img src='linkedin (1).png' />
                     <a href=''>LinkedIn</a>
                 </li>
                 <li className={styles.link}>
-                    <img src='' />
+                    <img src='/github.png' />
                     <a href=''>Github</a>
                 </li>
             </ul>

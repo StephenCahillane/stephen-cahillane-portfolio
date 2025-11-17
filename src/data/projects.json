@@ -1,10 +1,50 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "",
-        "description": "",
-        "skills": ["React", "Express", "Node"],
-        "demo": "",
+        "title": "Pitch Sales Tech",
+        "imageSrc": "/pitch.PNG",
+        "description": "A video-calling platform for trainee sales executives to train their sales pitching with live partners.",
+        "skills": [
+            "React",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://pitch-interviewing-frontend.onrender.com/",
         "source": ""
+    },
+    {
+        "title": "Tech TeamUp",
+        "imageSrc": "/tech-teamup.PNG",
+        "description": "Tech TeamUp is a collaboration and mentorship platform designed for aspiring software engineers to connect, form teams, and grow together. It brings the power of communication, organization, and learning into one unified space — helping developers gain real-world experience through teamwork and mentorship.",
+        "skills": [
+            "React",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://github.com/StephenCahillane/Tech-TeamUp",
+        "source": "https://github.com/StephenCahillane/Tech-TeamUp"
+    },
+    {
+        "title": "React Budget Tool",
+        "imageSrc": "/budget-image (1).png",
+        "description": "The React Budget Tool is a personal finance application that helps users track income and expenses, log daily spending, and meet saving goals. It provides an easy-to-use interface to visualize spending habits and keep your finances on track.",
+        "skills": [
+            "React",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://github.com/StephenCahillane/react-budget-tool",
+        "source": "https://github.com/StephenCahillane/react-budget-tool"
+    },
+    {
+        "title": "React BlackJack",
+        "imageSrc": "/blackjack-game (1).png",
+        "description": "A simple console-based Blackjack game built in React JS. Play against the computer, follow classic Blackjack rules, and practice your card strategy!",
+        "skills": [
+            "React",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://github.com/StephenCahillane/Black-Jack-Game",
+        "source": "https://github.com/StephenCahillane/Black-Jack-Game"
     }
 ]
