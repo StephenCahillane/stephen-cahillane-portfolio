@@ -5,13 +5,17 @@ import styles from './About.module.css';
 const About = () => {
     return (
         <section className={styles.container} id="about">
-            <h2 className={styles.title}>
-                About
-            </h2>
+
+
+
+            <div style={{ width: '40%', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'column' }}>
+                <h2 className={styles.title}>
+                    About
+                </h2>
+                <img className={styles.aboutImage} src='/freelancer.png' alt='About Image' />
+            </div>
 
             <div className={styles.content}>
-                <img className={styles.aboutImage} src='/freelancer.png' alt='About Image' />
-
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <img src='/cursor.png' />
@@ -32,7 +36,7 @@ const About = () => {
                     </li>
 
                     <li className={styles.aboutItem}>
-                        <img src='/wireframe/png' />
+                        <img src='/wireframe.png' />
                         <div className={styles.aboutItemText}>
                             <h3>UI Designer</h3>
                             <p>
@@ -42,6 +46,7 @@ const About = () => {
                     </li>
                 </ul>
             </div>
+
         </section>
     );
 }

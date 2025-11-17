@@ -5,8 +5,8 @@
         "startDate": "Aug, 2022",
         "endDate": "July, 2024",
         "experiences": [
-            "Developed responsive customer websites and user interfaces, including full database setup and configuration",
-            "Implemented webhooks and integrated third-party services to enable seamless cross-platform communication."
+            "Developed responsive customer websites and user interfaces.",
+            "Implemented webhooks and integrated third-party services."
         ],
         "imageSrc": "/onesource.jpg"
     },
@@ -16,8 +16,8 @@
         "startDate": "Nov, 2024",
         "endDate": "Current",
         "experiences": [
-            "Designed, built, and deployed a full-stack MERN application from the ground up, including scalable backend APIs, secure authentication, and a performant React frontend.",
-            "Managed end-to-end operations of the product—feature development, database architecture, DevOps, monitoring, and iterative improvements—ensuring reliable uptime and a smooth user experience."
+            "Designed and built platform with scalable backend APIs with secure authentication.",
+            "Managed end-to-end operations of the product—feature development."
         ],
         "imageSrc": "/pitch_P_50w.png"
     }

@@ -6,9 +6,20 @@ import styles from './ProjectCard.module.css';
 const ProjectCard = ({ project }) => {
     return (
         <div className={styles.container}>
-            <img src={project.imageSrc} className={styles.image}/>
-            <h3 className={styles.title}>{project.title}</h3>
-            <p className={styles.description}>{project.description}</p>
+
+
+
+
+            <img src={project.imageSrc} className={styles.image} />
+
+
+            <div style={{ height: '55%' }}>
+                <h3 className={styles.title}>{project.title}</h3>
+                <p className={styles.description}>{project.description}</p>
+            </div>
+
+
+
             <ul className={styles.skills}>
                 {
                     project.skills.map((skill, id) => {
