@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
@@ -12,7 +12,6 @@ const Navbar = () => {
             <a className={styles.title} href='/'>Portfolio</a>
 
             <div className={styles.menu}>
-                <img onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} src='/burger-bar.png' alt='menu.Button'/>
                 <ul onClick={() => setMenuOpen(false)} className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                     <li>
                         <a href='#about'>About</a>
@@ -28,6 +27,16 @@ const Navbar = () => {
 
                     <li>
                         <a href='#contact'>Contact</a>
+                    </li>
+
+                    <li className={styles.link} onClick={() => window.open('mailto:myemail@email.com')}>
+                        <img src='/email (1).png' style={{ width: '20px' }} />
+                    </li>
+                    <li className={styles.link} onClick={() => window.open('https://www.linkedin.com/in/stephen-cahillane-68689b27b/')}>
+                        <img src='linkedin (1).png' style={{ width: '20px' }} />
+                    </li>
+                    <li className={styles.link} onClick={() => window.open('https://github.com/StephenCahillane')}>
+                        <img src='/github.png' style={{ width: '20px' }} />
                     </li>
                 </ul>
             </div>

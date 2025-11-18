@@ -15,11 +15,14 @@ const Hero = () => {
                         <p>Welcome to my Portfolio</p>
                     </div>
                     <h1 className={styles.title}>Hi, I'm Stephen</h1>
-                    <p className={styles.description}>Im a full stack developer with 5 years of Experience using React, Node JS, reach out if youd like to know more! </p>
+                    <p className={styles.description}>
+                        Im a full stack developer with 5 years of Experience using React, Node JS,
+                        reach out if youd like to know more!
+                    </p>
 
                     <button className={styles.contact}>
                         Contact Me
-                        <img src='/right.png' style={{ width: '30px' }} />
+                        <img src='/right.png' style={{ width: '30px', marginLeft: '8px' }} />
                     </button>
                 </div>
 
@@ -37,7 +40,7 @@ const Hero = () => {
 
                 <div className={styles.topBlur} />
                 <div className={styles.bottomBlur} />
-
+                <div className={styles.yellowPlanet} />
                 <div className={styles.rocket} />
             </section>
 
