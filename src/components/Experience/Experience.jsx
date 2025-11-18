@@ -10,17 +10,20 @@ const Experience = () => {
 
             <div className={styles.content}>
 
-                <div className={styles.skills}>{
-                    skills.map((skill, id) => {
-                        return (
-                            <div key={id} className={styles.skill}>
-                                <div className={styles.skillImageContainer}> <img src={skill.imageSrc} alt={skill.title} /></div>
-                                <p>{skill.title}</p>
-                            </div>
+                <div className={styles.skills}>
+                    <div className={styles.redPlanet} />
+                    <div className={styles.redBlur} />
+                    {
+                        skills.map((skill, id) => {
+                            return (
+                                <div key={id} className={styles.skill}>
+                                    <div className={styles.skillImageContainer}> <img src={skill.imageSrc} alt={skill.title} /></div>
+                                    <p>{skill.title}</p>
+                                </div>
 
-                        )
-                    })
-                }
+                            )
+                        })
+                    }
                 </div>
 
 

@@ -5,6 +5,8 @@
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 50px;
+    position: relative;
 }
 
 .title {
@@ -21,4 +23,37 @@
     gap: 40px;
     width: 100%;
     justify-items: center;
+
+}
+
+.greenPlanet {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 450px;
+    left: 50%;                  /* move to horizontal center */
+    transform: translateX(-50%);
+    z-index: 0;
+    background-image: url('/green-planet (1).jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.greenBlur {
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(4, 240, 14, 0.5);
+    /* soft bluish glow */
+    z-index: 0;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    filter: blur(120px);
+    /* how soft the glow is */
+    z-index: 0;
+    pointer-events: none;
+    /* avoid interaction issues */
 }

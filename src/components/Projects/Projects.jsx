@@ -8,6 +8,10 @@ import styles from './Projects.module.css';
 const Projects = () => {
     return (
         <section className={styles.container}>
+
+
+            <div className={styles.greenPlanet} />
+            <div className={styles.greenBlur} />
             <h2 className={styles.title}>Projects</h2>
             <div className={styles.projects}>
                 {

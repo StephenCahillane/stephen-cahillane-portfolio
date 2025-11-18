@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
+    background-color: rgba(10,10,10,0.2);
+    border: rgba(4, 240, 14, 0.5) solid 2px;
     padding: 18px 24px;
     max-width: 345px;
     height: 550px;
+    z-index: 1;
 }
 
 .image {
