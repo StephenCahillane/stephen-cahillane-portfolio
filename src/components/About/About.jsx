@@ -7,12 +7,9 @@ const About = () => {
         <section className={styles.container} id="about">
 
 
-
-            <div style={{ width: '40%', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'column' }}>
-                <h2 className={styles.title}>
-                    About
-                </h2>
-                <img className={styles.aboutImage} src='/freelancer.png' alt='About Image' />
+            <div style={{ position: 'relative', width: '40%', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'column' }}>
+                <div className={styles.yellowPlanet} />
+                <img className={styles.aboutImage} src='/about-spaceman (1).jpg' alt='About Image' />
             </div>
 
             <div className={styles.content}>

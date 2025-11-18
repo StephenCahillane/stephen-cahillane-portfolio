@@ -1,8 +1,32 @@
 @import './vars.css';
 
 .App {
-    background-color: var(--color-bg);
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    /* * Set min-height to 100vh to ensure the app container
+    * fills the viewport even if content is short.
+    * Use `min-height` instead of `height` to allow it to grow.
+    */
+    min-height: 100vh;
+    /* * REMOVE `overflow: hidden;` from .App 
+    * if you want the content inside to be scrollable.
+    */
+    background-image: url(/dark-night.jpg);
+    background-position: center;
+    background-size: cover;
+    /* Keeps background image fixed in the viewport */
+    background-attachment: fixed;
+    /* Must be higher than the content z-index */
+    position: relative; 
+    z-index: 1; /* Give the .App a z-index for content */
+}
+
+.App::before {
+    content: "";
+    /* Use 'fixed' to lock it to the viewport, just like the background image */
+    position: fixed; 
+    inset: 0;
+    /* same as top:0; right:0; bottom:0; left:0 */
+    background: rgba(0, 0, 0, 0.4);
+    /* Set z-index lower than the content inside .App */
+    z-index: -1; 
 }

@@ -40,7 +40,7 @@ const Hero = () => {
 
                 <div className={styles.topBlur} />
                 <div className={styles.bottomBlur} />
-                <div className={styles.yellowPlanet} />
+                
                 <div className={styles.rocket} />
             </section>
 

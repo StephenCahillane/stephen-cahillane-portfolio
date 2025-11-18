@@ -2,7 +2,7 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: rgba(12, 12, 12, 0.8);
     border-radius: 15px;
     padding: 50px;
     margin-top: 129px;
@@ -10,7 +10,7 @@
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
-
+    
 }
 
 .title {
@@ -29,7 +29,26 @@
 }
 
 .aboutImage {
-    width: 60%;
+    width: 90%;
+    animation: orbit 4s forwards infinite;
+    animation-timing-function: linear;
+}
+
+.yellowPlanet {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('/yellow-planet (1).jpg');
+    background-size: cover;
+    background-position: center;
+    top: -100px;
+    left: -150px;
+}
+
+
+@-webkit-keyframes orbit {
+    from {  -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   {  -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 
 .aboutItems {
