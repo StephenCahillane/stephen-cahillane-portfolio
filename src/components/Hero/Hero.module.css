@@ -34,14 +34,14 @@
 }
 
 .welcomeBlock {
-    border: white solid 1px;
+
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 10px;
     background: #3F5EFB;
-    background: radial-gradient(circle,rgb(81, 105, 224) 0%, rgb(110, 61, 96) 100%);
+    background: radial-gradient(circle, rgb(81, 105, 150) 0%, rgb(100, 61, 96) 100%);
 }
 
 .welcomeBlock p {
@@ -55,8 +55,8 @@
 .title {
     font-size: 70px;
     font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: var(--font-manrope);
 }
 
@@ -66,6 +66,7 @@
     margin-bottom: 25px;
     color: rgba(240, 240, 240, 0.8);
     z-index: 3;
+    letter-spacing: 1px;
 }
 
 .contact {
@@ -220,4 +221,96 @@
     .content {
         align-items: center;
     }
+}
+
+
+
+ @media screen and (max-width: 430px) {
+
+        .fullPageContainer {
+            height: auto;
+            padding-top: 40px;
+            padding-bottom: 60px;
+        }
+
+        .container {
+            flex-direction: column-reverse;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+
+        .content {
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .welcomeBlock {
+            width: 100%;
+            height: auto;
+            padding: 6px 12px;
+            justify-content: center;
+        }
+
+        .welcomeBlock p {
+            font-size: 14px;
+            letter-spacing: 0.3px;
+        }
+
+        .title {
+            font-size: 38px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            font-size: 16px;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .contact {
+            font-size: 18px;
+            padding: 10px 16px;
+        }
+
+        /* ---- HERO / PLANETS ---- */
+        .heroWrapper {
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .heroImageContainer {
+            width: 260px;
+            height: 260px;
+            position: relative;
+            left: 0;
+        }
+
+        .bluePlanet {
+            width: 260px;
+            height: 260px;
+        }
+
+        .topBlur,
+        .bottomBlur {
+            width: 180px;
+            height: 180px;
+            filter: blur(95px);
+        }
+
+        .topBlur {
+            top: -90px;
+            left: -50px;
+        }
+
+        .bottomBlur {
+            top: 140px;
+            right: -50px;
+        }
+    
+
 }

@@ -18,8 +18,8 @@ const About = () => {
                     <li className={styles.aboutItem}>
                         <img src='/cursor.png' />
                         <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
-                            <p>im a frontend developer with Experience in building responsive sites</p>
+                            <h3>Frontend Development</h3>
+                            <p>I build fast, responsive, and user-focused web apps. I excel at creating seamless interfaces that integrate with backend API architecture.</p>
                         </div>
                     </li>
 
@@ -28,7 +28,7 @@ const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Backend Developer</h3>
                             <p>
-                                I have experience developing fast and optimized backend-systems and APIs
+                                I build clean, efficient, and lightweight backend systems, focusing on fast APIs, scalable architecture, and maintainable code using Node.js and Express.
                             </p>
                         </div>
                     </li>
@@ -36,9 +36,9 @@ const About = () => {
                     <li className={styles.aboutItem}>
                         <img src='/coding.png' />
                         <div className={styles.aboutItemText}>
-                            <h3>UI Designer</h3>
+                            <h3>Founder & Developer</h3>
                             <p>
-                                I have experience designing fast and optimized UIs
+                                I built and released my own platform—designing the UI, architecture, and core functionality—which now serves active users in the sales industry.
                             </p>
                         </div>
                     </li>

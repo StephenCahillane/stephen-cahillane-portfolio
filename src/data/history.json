@@ -1,16 +1,5 @@
 [
     {
-        "role": "FrontEnd Developer",
-        "organization": "OneSource ICT",
-        "startDate": "Aug, 2022",
-        "endDate": "July, 2024",
-        "experiences": [
-            "Developed responsive customer websites and user interfaces.",
-            "Implemented webhooks and integrated third-party services."
-        ],
-        "imageSrc": "/onesource.jpg"
-    },
-    {
         "role": "Founder & Full Stack Developer",
         "organization": "Pitch Sales Tech",
         "startDate": "Nov, 2024",
@@ -20,5 +9,16 @@
             "Managed end-to-end operations of the product—feature development."
         ],
         "imageSrc": "/pitch_P_50w.png"
+    },
+    {
+        "role": "FrontEnd Developer",
+        "organization": "OneSource ICT",
+        "startDate": "Aug, 2022",
+        "endDate": "July, 2024",
+        "experiences": [
+            "Developed responsive customer websites and user interfaces.",
+            "Implemented webhooks and integrated third-party services."
+        ],
+        "imageSrc": "/onesource.jpg"
     }
 ]

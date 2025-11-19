@@ -57,3 +57,49 @@
     pointer-events: none;
     /* avoid interaction issues */
 }
+
+@media screen and (max-width: 430px) {
+
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 80px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 28px;
+        letter-spacing: 1.2px;
+        margin-bottom: 20px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr; /* single column for mobile */
+        gap: 25px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    /* PLANETS */
+    .greenPlanet {
+        width: 250px;
+        height: 250px;
+        top: 950px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .greenBlur {
+        width: 350px;
+        height: 350px;
+        top: 950px;
+        left: 50%;
+        transform: translateX(-50%);
+        filter: blur(120px);
+    }
+
+}

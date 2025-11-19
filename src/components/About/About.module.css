@@ -4,7 +4,7 @@
     position: relative;
     background-color: rgba(12, 12, 12, 0.8);
     border-radius: 15px;
-    padding: 50px;
+    padding: 30px;
     margin-top: 0px;
     z-index: 1;
     margin-left: 10%;
@@ -14,7 +14,7 @@
 
 .title {
     color: var(--color-text);
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -107,14 +107,14 @@
 }
 
 .aboutItem h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    margin-bottom: 3px;
+    margin-bottom: 7px;
     letter-spacing: 1px;
 }
 
 .aboutItem p {
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(240,240,240,0.8);
 }
 
@@ -141,5 +141,98 @@
     .aboutItem {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .container {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 15px;
+        background-color: rgba(12, 12, 12, 0.6); 
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 32px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Hide orbit image on small screens (optional) */
+    .aboutImage {
+        width: 50%; /* smaller but still visible */
+        max-width: 180px; /* optional cap for very small screens */
+        animation: orbit 4s forwards infinite;
+        animation-timing-function: linear;
+        margin: 0 auto; /* center the image */
+        display: block;
+    }
+
+    @-webkit-keyframes orbit {
+        from {  -webkit-transform: rotate(0deg) translateX(20px) rotate(0deg); }
+        to   {  -webkit-transform: rotate(360deg) translateX(20px) rotate(-360deg); }
+    }
+    
+
+    /* PLANET + BLUR SCALE DOWN */
+    .yellowPlanet {
+        width: 140px;
+        height: 140px;
+        top: -20px;
+        left: -20px;
+    }
+
+    .bottomBlur {
+        width: 150px;
+        height: 150px;
+        top: -40px;
+        left: -40px;
+        filter: blur(90px);
+    }
+
+    /* ABOUT ITEMS */
+    .aboutItems {
+        width: 100%;
+        margin-top: 25px;
+        gap: 35px;
+    }
+
+    .aboutItem {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        background-image: linear-gradient(
+            180deg,
+            rgba(255, 230, 100, 0.35) 0%,
+            rgba(255, 255, 255, 0) 100%
+        );
+        background-size: 100% 0;
+    }
+
+    .aboutItem img {
+        width: 55px;
+        height: 55px;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .aboutItem h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .aboutItem p {
+        font-size: 16px;
+        line-height: 1.4;
     }
 }
