@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .container {
-    margin-top: 76px ;
+    margin-top: 150px ;
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
@@ -51,7 +51,7 @@
     width: 700px;
     height: 700px;
     border-radius: 50%;
-    filter: blur(120px);
+    filter: blur(200px);
     /* how soft the glow is */
     z-index: 0;
     pointer-events: none;

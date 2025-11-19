@@ -5,12 +5,11 @@
     background-color: rgba(12, 12, 12, 0.8);
     border-radius: 15px;
     padding: 50px;
-    margin-top: 129px;
+    margin-top: 0px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
-    
 }
 
 .title {
